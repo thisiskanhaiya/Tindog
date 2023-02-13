@@ -1,11 +1,32 @@
 body{
     font-style: "Mpntserrat";
 }
+
+ h1{   
+    font-family: 'Montserrat', sans-serif;
+    font-size: 4.5rem;
+    line-height: 1.5;
+    color: white;
+    padding-top: 1%;
+}
+h2{
+    font-family: 'Montserrat-bold',sans-serif; 
+    font-weight: bold;
+}
+h3{
+    padding-top: 3%;
+    font-family: 'Montserrat-bold',sans-serif;
+    font-weight: bold;
+    font-size: 3.5rem;
+}
+
+/* -------------Title----------- */
+
 #title{
     color: white;
     line-height: 1.2;
     background-color: #ff4c68;
-    padding: 7% 15%;
+    padding: 3% 15% 7%;
 }
 .navbar-brand{
     font-family: 'Ubuntu', sans-serif;
@@ -23,26 +44,16 @@ body{
     padding-top: 4.5rem;
 }
 
- h1{   
-    font-family: 'Montserrat', sans-serif;
-    font-size: 4.5rem;
-    line-height: 1.5;
-    color: white;
-    padding-top: 1%;
-}
-h2{
-    font-family: 'Montserrat-bold',sans-serif; 
-}
-h3{
-    padding-top: 3%;
-    /* font-family: 'Montserrat-bold',sans-serif; */
-    font-weight: bold;
+.align{
+    padding: 7% 15%;
 }
 
 /* fetures  */
 
 #features{
-    padding: 7% 15%;
+    background-color:#fff;
+    position:relative;
+    margin-top: -18%;
 }
 .feture-box{
     text-align: center;
@@ -65,7 +76,7 @@ h3{
  .fa-check{
     padding: 2rem;
     border-radius: 100%;
-    background-color: #ff4c68;
+    background-color: #f7576f;
  }
  .fa-check:hover{
     background-color: #ff1639;
@@ -73,9 +84,8 @@ h3{
 
  /* testimonials */
 #testimonials{
-    padding: 7% 15%;
     text-align: center;
-    background-color: #ff4c68;
+    background-color: #f7576f;
     color: #fff;
 }
 
@@ -84,14 +94,54 @@ h3{
     width: 10%;
 }
 
+
 /* --------press------------ */
 
 #press{
-    background-color: #ff4c68;
+    background-color: #f7576f;
     text-align: center;
     padding-bottom: 3%;
 }
 .press-logo{
     width: 15%;
     margin: 20px 20px 50px;
+}
+
+
+/* pricing section  */
+
+@media (max-width:1028px){
+    #title{
+        text-align: center;
+        padding-bottom: 25%;
+    }
+    li{
+        font-size: 2.5rem;
+    }
+    .title-img{
+        width: 60%;
+        transform: rotate(0);
+        position: static;
+     }
+
+}
+
+/* ------------- CTA ------------------ */
+
+#cta{
+    color: white;
+    line-height: 1.2;
+    background-color: #ff4c68;
+    padding: 3% 15% 7%;
+    text-align: center;
+}
+
+/* --------------- Footer ---------------- */
+
+#footer{
+    text-align: center;
+    padding: 8% 0 8% 0;
+}
+.connect i{
+    margin: 1%;
 }
